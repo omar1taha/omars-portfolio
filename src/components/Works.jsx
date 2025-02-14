@@ -6,19 +6,19 @@ const Works = () => {
     {
       title: "Kuyua Landing Page",
       icon: "pi pi-external-link",
-      img: "/kuyuaworks.png",
+      img: "./omars-portfolio/kuyuaworks.png",
       description: "Landing page for Kuyua, a leading environmental solutions software, implemented in Europe, GR ",
     },
     {
       title: "Chiral Client App",
       icon: "pi pi-external-link",
-      img: "/chiralworks.png",
+      img: "./omars-portfolio/chiralworks.png",
       description: "Chiral client app, dental clinic management software, trusted by 100+ clinics in United Kingdom",
     },
     {
       title: "Kuyua Client App",
       icon: "pi pi-external-link",
-      img: "/kuyuaclientworks.png",
+      img: ".omars-portfolio/kuyuaclientworks.png",
       description: "Kuyua client app, environmental solutions software, implemented in Europe, GR",
     },
   ];
