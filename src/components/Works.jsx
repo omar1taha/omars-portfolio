@@ -6,7 +6,7 @@ const Works = () => {
     {
       title: "Kuyua Landing Page",
       icon: "pi pi-external-link",
-      img: "/kuyuaworks.png",
+      img: "./omars-portfolio/kuyuaworks.png",
       description: "Landing page for Kuyua, a leading environmental solutions software, implemented in Europe, GR ",
     },
     {
