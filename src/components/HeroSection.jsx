@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div className="hero-section">
       <div className="hero-overlay flex">
         <div className="flex w-full">
-          <div className="flex flex-equal align-items-center">
+          <div className="flex align-items-center">
             <div className="hero-text pl-8">
               <h1 className="text-6xl">Welcome to My Portfolio</h1>
               <p className="text-2xl">
@@ -24,7 +24,7 @@ const HeroSection = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-equal align-items-center justify-content-center">
+          <div className="flex xl:flex-equal align-items-center justify-content-center">
             <div className="pp-container"></div>
           </div>
         </div>

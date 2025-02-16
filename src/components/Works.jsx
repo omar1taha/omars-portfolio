@@ -6,20 +6,23 @@ const Works = () => {
     {
       title: "Kuyua Landing Page",
       icon: "pi pi-external-link",
-      img: "./omars-portfolio/assets/kuyuaworks.png",
+      img: "assets/kuyuaworks.png",
       description: "Landing page for Kuyua, a leading environmental solutions software, implemented in Europe, GR ",
+      url: "https://kuyua.com",
     },
     {
       title: "Chiral Client App",
       icon: "pi pi-external-link",
       img: `assets/chiralworks.png`,
       description: "Chiral client app, dental clinic management software, trusted by 100+ clinics in United Kingdom",
+      url: "https://chiralcloud.com/z3rG2baJGMRJAQyw/165841866",
     },
     {
       title: "Kuyua Client App",
       icon: "pi pi-external-link",
-      img: "./kuyuaclientworks.png",
+      img: "assets/kuyuaclientworks.png",
       description: "Kuyua client app, environmental solutions software, implemented in Europe, GR",
+      url: "https://staging.kuyua.net/login",
     },
   ];
   const panelHeader = (project) => {
@@ -30,7 +33,11 @@ const Works = () => {
           <h2>{project.title}</h2>
         </div>
         <div>
-          <Button icon={project.icon} className="p-button-rounded p-button-text" />
+          <Button
+            icon={project.icon}
+            className="p-button-rounded p-button-text"
+            onClick={() => window.open(project.url, "_blank")}
+          />
         </div>
       </div>
     );
@@ -41,14 +48,14 @@ const Works = () => {
       <div className="grid">
         {projects.map((project, index) => {
           return (
-            <div key={index} className="col-6">
+            <div key={index} className="md:col-6">
               <Panel headerTemplate={panelHeader(project)}>
                 <div className="w-full works-img">
                   <img src={project.img} />
                 </div>
                 <br></br>
                 <li>{project.description}</li>
-                <Button className="mt-4 w-full" label="View" />
+                <Button className="mt-4 w-full" label="View" onClick={() => window.open(project.url, "_blank")} />
               </Panel>
             </div>
           );
