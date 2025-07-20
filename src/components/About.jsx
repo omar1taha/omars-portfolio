@@ -2,7 +2,7 @@ import { Card } from "primereact/card";
 
 const About = () => {
   return (
-    <div className="main-section align-items-stretch flex-wrap	">
+    <div id="about"   className="main-section align-items-stretch flex-wrap	">
       <h1>About</h1>
       <Card>
         <div className="flex flex-column md:flex-row">
