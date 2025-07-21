@@ -43,7 +43,7 @@ const Works = () => {
     );
   };
   return (
-    <div className="main-section">
+    <div id = "works" className="main-section">
       <h1>Works</h1>
       <div className="grid">
         {projects.map((project, index) => {

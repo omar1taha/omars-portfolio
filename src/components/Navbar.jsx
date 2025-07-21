@@ -4,9 +4,15 @@ const Navbar = () => {
   const items = [
     {
       label: "Works",
+      command: () => {
+        document.getElementById("works")?.scrollIntoView({ behavior: "smooth" });
+      },
     },
     {
       label: "About",
+       command: () => {
+        document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+      },
     },
   ];
 
