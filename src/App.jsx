@@ -8,6 +8,7 @@ import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
 
 import "./App.css";
+import Test from "./components/works/test";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <HeroSection />
         <About />
         <Works />
+        <Test />
       </div>
     </>
   );
