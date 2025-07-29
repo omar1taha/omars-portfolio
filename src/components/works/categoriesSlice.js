@@ -3,8 +3,8 @@ import axios from 'axios';
 
 export const fetchCategories = createAsyncThunk(
   'categories/fetchCategories', async () => {
-    const response = await axios.get('https://api.escuelajs.co/api/v1/categories');
-    return response.data;
+    const response = await axios.get('https://myportfolio-backend-q6na.onrender.com/api/v1/categories');
+    return response.data.data;
   });
 
 
