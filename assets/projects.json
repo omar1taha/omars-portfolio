@@ -17,7 +17,14 @@
     "title": "Kuyua Client App",
     "icon": "pi pi-external-link",
     "img": "assets/kuyuaclientworks.png",
-    "description": "Kuyua client app, environmental solutions software, implemented in Europe, GR",
+    "description": "Kuyua client app, environmental solutions software, in Europe, GR",
     "url": "https://staging.kuyua.net/login"
+  },
+   {
+    "title": "Yourparts Application",
+    "icon": "pi pi-external-link",
+    "img": "assets/ypworks.png",
+    "description": "Yourparts application, automotive parts marketplace, based in Egypt",
+    "url": "https://www.yourparts.com"
   }
 ]
