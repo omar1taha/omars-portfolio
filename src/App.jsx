@@ -6,8 +6,6 @@ import "primereact/resources/themes/lara-dark-teal/theme.css";
 import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
 import "./App.css";
-import Test from "./components/works/test";
-import ContactForm from "./components/contact-us/contact-form";
 
 function App() {
   return (
@@ -16,8 +14,8 @@ function App() {
         <HeroSection />
         <About />
         <Works />
-        <Test />
-        <ContactForm />
+        {/* <Test />
+        <ContactForm /> */}
     </>
   );
 }
