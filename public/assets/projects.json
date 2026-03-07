@@ -20,7 +20,14 @@
     "description": "Kuyua client app, environmental solutions software, in Europe, GR",
     "url": "https://staging.kuyua.net/login"
   },
-   {
+  {
+    "title": "Parent App",
+    "icon": "pi pi-external-link",
+    "img": "assets/parentappworks.png",
+    "description": "Parent app, a leading childcare management software, trusted by 100+ nurseries in Europe",
+    "url": "https://www.parent.app"
+  },
+  {
     "title": "Yourparts Application",
     "icon": "pi pi-external-link",
     "img": "assets/ypworks.png",
