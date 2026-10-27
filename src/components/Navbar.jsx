@@ -26,7 +26,7 @@ const Navbar = () => {
         icon="pi pi-linkedin"
         className="p-button-text"
         style={{ color: 'white' }}
-        onClick={() => window.open('https://www.linkedin.com/in/omar-hussien-684431125/', '_blank')}
+        onClick={() => window.open('https://www.linkedin.com/in/omar-taha-684431125/', '_blank')}
       />
     </div>
   );
